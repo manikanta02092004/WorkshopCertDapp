@@ -1,0 +1,58 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.connected {
+  color: orange;
+  border: none;
+}
+
+.frm {
+  padding: 0 1rem 1rem 1rem;
+  margin: 1rem auto;
+  background-color: #101010;
+  border-radius: 10px;
+  max-width: 390px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.loader {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.green {
+  color: rgb(23, 230, 23);
+}
+
+.orange {
+  color: rgb(255, 195, 84);
+}
+.connect-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.connected-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: not-allowed;
+}
+
+.connection-status p {
+  margin: 10px 0;
+  color: #333;
+}

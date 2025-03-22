@@ -1,0 +1,27 @@
+{
+  "name": "workshop-certificate-dapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishant-s7/workshop-certificate-dapp.git"
+  },
+  "author": "Nishant Shinde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishant-s7/workshop-certificate-dapp/issues"
+  },
+  "homepage": "https://github.com/nishant-s7/workshop-certificate-dapp#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "hardhat": "^2.18.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
